@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web"
+version = "0.1.0"
+description = ""
+authors = ["ARIS2333 <3399494507zkh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.29.0"
+streamlit = "^1.42.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
